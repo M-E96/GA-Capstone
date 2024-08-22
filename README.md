@@ -20,7 +20,7 @@ The Aim of this capstone was to find out just how much CO2 actually had an impac
 |*Units mentioned*|
 |temperature anomaly|Float/Integer|Celsius, relative to average in 1961-1990|
 |CO2 emissions|Float/Integer|Tonnes of CO2
-|BCE|Float/Int|Tonnes of BCE|
+|BCE|Float/Int|Tonnes of Black Carbone Particulates|
 |Average sea level|Float/Int|mm relative to average of 1993-2008|
 |Average surface temperature/.1|Float/Int|Degrees Celsius|
 |Disasters/variants|Int|Frequency of Disasters|
@@ -28,9 +28,9 @@ The Aim of this capstone was to find out just how much CO2 actually had an impac
 ## Executive Summary
 > When people talk about climate change, the initial thought is to our fossil fuel consumption and CO2 emissions. But we explore why using CO2 as a measure of human impact is valid, and why scientists have been focused on it for so long. 
 
->We explain that whilst there are other contributors to Global warming, much more potent, CO2 is actually the most humans actually have an impact on.
+>Whilst there are other contributors to Global warming, much more potent, CO2 is actually the most humans actually have an impact on.
 
->I show that CO2 emissions, sea levels, global temperature, average surface temperatures, number of disasters all increase, just by pure eda, and through ARIMA, VAR modelling. These all either contribute or are a product of Global warming, but to be honest, mostly likely both, a vicious cycle.
+> CO2 emissions, sea levels, global temperature, average surface temperatures, number of disasters all increase, just by pure eda, and through ARIMA, VAR modelling. These all either contribute or are a product of Global warming, but to be honest, mostly likely both, a vicious cycle.
 >> But, as opposed to just generally increasing, we sea that in all these data points, the sharpest rates of increase all span from the 1960s to 2000, which can be attributed to the normalisation(it being post war) and industrialisation for China, India, Russia.
 
 > ARIMA is good for single series data, just to make simple predictions, VAR for interdepencies, multiple variables, predictions should be more accurate if our hypothesis is correct about CO2, temperature, Sea level are all related, thus producing more disasters.
